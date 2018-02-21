@@ -1,0 +1,79 @@
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header{
+	background-image:url("banner.png");
+	background-repeat: no-repeat;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
+div#ref1 { 
+	margin-left: 30px;
+	padding-top: 0.25px;
+	width: 30%;
+    background: rgba(250, 250, 250, 0.4);
+	border-bottom: 4px dotted blue;
+	border-top: 4px dotted blue;
+	color:black;
+	text-align: right;
+	
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+	 
+	font-family: "Times New Roman", Times, serif;
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: left;
+}
+
+div#ref2 {
+	font-style: italic;
+	margin-left: -100px;
+	padding-bottom: 1px;
+	text-align: left;
+	float:left;
+}
+
+div#ref3 { 
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-left: 500px;
+	padding-bottom: 1px;
+	text-align: left;
+	overflow: hidden;
+}
+
+
